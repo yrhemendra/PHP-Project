@@ -6,7 +6,7 @@ This project implements a simple contact form using HTML and PHP. The form valid
 
 - PHP
 - MySQL
-- Web server (e.g., Apache, Nginx)
+- Web server (e.g., Apache)
 
 ## Setup Instructions
 
@@ -30,4 +30,4 @@ This project implements a simple contact form using HTML and PHP. The form valid
 - The project does not use any PHP frameworks or libraries.
 - JavaScript is not used in this project.
 - Form validation is done on the server-side using PHP.
-- This project is designed for learning purposes and may require additional security measures for production environments.
+
