@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+    <center><h1>Contact Us</h1>
+<hr><br>
+    <form action="process_form.php" method="post">
+        <label for="full_name">Full Name:</label>
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+ <input type="text" name="full_name" required><br><br>
+         <label for="phone_number">Phone Number:</label>
+        <input type="tel" name="phone_number" required><br><br>
+        
+        <label for="email">Email:</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="email" name="email" required><br><br>
+        
+        <label for="subject">Subject:</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="text" name="subject" required><br><br>
+        
+        <label for="message">Message:</label>
+&nbsp&nbsp&nbsp&nbsp
+        <textarea name="message" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</center>
+</body>
+</html>
