@@ -12,7 +12,7 @@ This project implements a simple contact form using HTML and PHP. The form valid
 
 1. **Database Setup:**
 
-   - Create a MySQL database.
+   - Create a MySQL database using SQL Query.
    - Replace 'your_username', 'your_password', and 'your_database' placeholders in `process_form.php` with your actual database credentials.
 
 2. **Web Server Setup:**
